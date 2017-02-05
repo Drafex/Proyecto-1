@@ -35,6 +35,9 @@ module.exports.routes = {
   '/': {
     view: 'homepage'
     
+  },
+  '/show':{
+    view: 'show'
   }
   
     

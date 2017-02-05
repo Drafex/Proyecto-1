@@ -25,7 +25,7 @@ module.exports = {
 				console.log(err);
 				return res.redirect('/user/new');
 			}
-			res.redirect('/user');
+			res.redirect('/show');
 		})
 	}
 };
